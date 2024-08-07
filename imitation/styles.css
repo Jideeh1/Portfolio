@@ -1,0 +1,94 @@
+
+html {
+    background-color: #0f0f0f;
+}
+
+.navbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+}
+
+.logo {
+    font-family: "frontscreen";
+    color: #efece6;
+    line-height: 1;
+    font-size: 20px;
+    text-align: left;
+    align-self: center;
+    cursor: default;
+}
+
+.unorderedlist {
+    display: flex;
+    list-style: none;
+    font-family: "quicksandlight";
+    padding: 0;
+    margin: 0 0;
+    text-align: center;
+    flex-shrink: none;
+    margin: 0 50px;
+}
+
+.list {
+    display: inline-block;
+    padding: 16px;
+}
+
+.mainhero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heroblock {
+    display: flex;
+    flex-direction: column;
+}
+
+.herocon {
+    display: flex;
+}
+
+.herotext {
+    color: transparent;
+    font-size: 90px;
+    font-family: "frontscreen";
+    line-height: 0.6;
+    margin-bottom: 0;
+    background-image: url(assets/images/background3.gif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 10px;
+}
+
+.herocontent p {
+    color: #5d5c5a;
+    font-size: 25px;
+    width: 500px;
+    margin-top: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.medialol {
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #efece6;
+}
+
+
+
+/* Hover line Hover line  Hover line  Hover line  Hover line  Hover line  */
+
+a:hover {
+    color: #a9ff5c;
+}
