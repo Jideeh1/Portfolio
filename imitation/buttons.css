@@ -1,4 +1,6 @@
 .hirebtn {
+    transition: background-color 1s linear;
+    transition: color 0.5s linear;
     cursor: pointer;
     border: #efece6 solid;
     background-color: #efece6;
@@ -11,6 +13,8 @@
 }
 
 .btn {
+    transition: background-color 1s linear;
+    transition: color 0.5s linear;
     cursor: pointer;
     border: #efece6 solid;
     background-color: #efece6;
@@ -26,6 +30,21 @@
     background-color: #a9ff5c;
 }
 
+.conbut {
+    cursor: pointer;
+    border: #efece6 solid;
+    background-color: #efece6;
+    border-radius: 20px;
+    font-family: "quicksand";
+    color: #1f1f1f;
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    margin: auto;
+    transition: background-color 1s linear;
+    transition: color 0.5s linear;
+}
+
 
 /* Hover line Hover line  Hover line  Hover line  Hover line  Hover line  */
 
@@ -36,6 +55,12 @@
 }
 
 .btn:hover {
+    background-color: #cb5cff;
+    border: #cb5cff solid;
+    color: #efece6;
+}
+
+.conbut:hover {
     background-color: #cb5cff;
     border: #cb5cff solid;
     color: #efece6;
