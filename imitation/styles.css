@@ -87,6 +87,7 @@ html {
     flex-direction: column;
     padding-top: 160px;
     padding-bottom: 160px;
+    flex: 0;
 }
 
 .section-text {
